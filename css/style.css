@@ -202,7 +202,7 @@ ul.icon img:hover {
 	margin-bottom: 40px;
 }
 .list2 .text {
-	width: 100%;
+	width: 90%;
 }
 .list2 li {
 	margin-bottom: 10px;
@@ -215,9 +215,9 @@ ul.icon img:hover {
 
 .slide {
 	position: relative;
-	width: 90%;
+	width: 300px;
 	overflow:hidden;
-        height: 615px;
+        height: 300px;
 } 
 @keyframes slideshow{ 
 	0%{ opacity: 0;} 10%{ opacity: 1; } 45%{ opacity: 1 } 55%{ opacity: 0; } 100%{ opacity: 0; } } 
