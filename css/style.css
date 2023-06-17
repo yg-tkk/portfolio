@@ -396,10 +396,6 @@ opacity: 0;
 .gallery li a:hover {
       opacity: 0.8;
     }
-
-.gallery li a img {
-      width: 200px;
-    }
 .modal {
       position: fixed;
       top: 0;
