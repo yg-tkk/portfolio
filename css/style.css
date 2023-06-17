@@ -231,12 +231,9 @@ ul.icon img:hover {
 @keyframes slideshow{ 
 	0%{ opacity: 0;} 10%{ opacity: 1; } 28%{ opacity: 1 } 38%{ opacity: 0; } 100%{ opacity: 0; } } 
 .slide img { 
-	position: absolute;
-	top: 50%;
-	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 100%;
-	height: auto;
+	padding: 10px;	
+	background: #fff;
 	opacity: 0;
 	animation :slideshow 20s linear infinite;
 } 
