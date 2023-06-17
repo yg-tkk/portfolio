@@ -217,7 +217,7 @@ ul.icon img:hover {
 	position: relative;
 	width: 90%;
 	overflow:hidden;
-        height: 500px;
+        height: 615px;
 } 
 @keyframes slideshow{ 
 	0%{ opacity: 0;} 10%{ opacity: 1; } 45%{ opacity: 1 } 55%{ opacity: 0; } 100%{ opacity: 0; } } 
@@ -498,7 +498,6 @@ section + section {
 }
 .slide {
         width: 48%;
-	height: 585px;
 } 
 .list2 .text {
 	width: 48%;
