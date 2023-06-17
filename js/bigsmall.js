@@ -1,5 +1,5 @@
 $(function() { 
-$('.course-item a').click(function() {
+$('.gallery li a').click(function() {
         var imgSrc = $(this).children().attr('src');
         $('.bigimg').children().attr('src', imgSrc);
         $('.modal').fadeIn();
