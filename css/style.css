@@ -233,11 +233,9 @@ ul.icon img:hover {
 	opacity: 0;
 	animation :slideshow 16s linear infinite;
 } 
-.slide img:nth-child(2){ 
-	animation-delay: 8s;
-} 
+
 .slide img:last-child{ 
-	animation-delay: 16s;
+	animation-delay: 8s;
 }
 
 /*PAGE TOP（↑）設定---------------------------------------------------------------------------*/
