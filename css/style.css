@@ -334,6 +334,9 @@ div.photo {
 .tab ul{
   list-style:none;
 }
+.tab a{
+  text-decoration: none;
+}
 .tab li a{
   display: block;
   margin:0 2px;
