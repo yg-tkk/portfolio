@@ -334,6 +334,7 @@ ul.icon img:hover {
   flex-wrap: wrap;
   justify-content: center;
   list-style:none;
+  padding: 0px;
 }
 .tab li a{
   display: block;
