@@ -254,25 +254,6 @@ ul.icon img:hover {
 .ofx {overflow-x: hidden;}
 
 /* photo.htmlの設定---------------------------------------------------------------------------*/
-ul.navmenu {
-	text-align: center;
-	padding: 10px 0px;
-	margin-bottom: 15px;
-}
-ul.navmenu li {
-	display: inline;
-}
-ul.navmenu li a {
-	padding-right: 10px;
-	padding-left: 10px;
-	text-decoration: none;
-	animation-name: fade;
-	animation-duration:5s;
-}
-ul.navmenu li.current a {
-	color: #f6e62f;
-}
-
 div.photo {
 	height:auto;
 }
@@ -296,28 +277,6 @@ div.photo {
 .photo h1 span::after {
 	content: "〜";
 	padding-left: 10px;
-}
-.flex {
-    margin: 5px 0px 30px;
-    padding-left: 0;
-    text-align: center;
-}
-.flex .box {
-    border: 3px solid #d3d3d3;
-    list-style: none;
-    display: inline-flex;
-    width: 25%;
-    position: relative;
-    bottom: -15px;
-    margin: 3px;
-    opacity: 0;
-}
-.flex .box img {
-    max-width: 100%;
-    height: auto;
-}
-.flex .box a:hover {
-      opacity: 0.8;
 }
 .modal {
       position: fixed;
@@ -383,12 +342,8 @@ div.photo {
   background:#fff;
 }
 
-
 /*エリアの表示非表示と形状*/
 .area {
-  display: none;/*はじめは非表示*/
-  opacity: 0;/*透過0*/
-  background: #fff;
   padding:50px 20px;
 }
 
