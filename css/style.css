@@ -511,6 +511,9 @@ section + section {
 .list2 figure {
 	width: 48%;
 }
+.slide {
+        width: 48%;
+} 
 .list2 .text {
 	width: 48%;
 }
