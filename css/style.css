@@ -201,15 +201,6 @@ ul.icon img:hover {
 	justify-content: space-between;	
 	margin-bottom: 40px;
 }
-.list2 figure {
-	width: 90%;
-	text-align: center;
-}
-.list2 figure img {
-	padding: 10px;	
-	background: #fff;
-	transform: rotate(-2deg);
-}
 .list2 .text {
 	width: 100%;
 }
@@ -222,24 +213,24 @@ ul.icon img:hover {
 	opacity: 0.5;
 }
 
-.slide {
+.list2.slide {
 	position: relative;
 	width: 90%;
 	overflow:hidden
 } 
 @keyframes slideshow{ 
 	0%{ opacity: 0;} 10%{ opacity: 1; } 45%{ opacity: 1 } 55%{ opacity: 0; } 100%{ opacity: 0; } } 
-.slide img { 
+.list2.slide img { 
 	position: absolute;
 	padding: 10px;	
 	background: #fff;
 	opacity: 0;
 	animation :slideshow 16s linear infinite;
 } 
-.slide img:nth-child(2){
+.list2.slide img:nth-child(2){
         animation-delay: 8s;
 }
-.slide img:last-child{ 
+.list2.slide img:last-child{ 
 	animation-delay: 8s;
 }
 
