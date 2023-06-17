@@ -254,10 +254,12 @@ ul.icon img:hover {
 .ofx {overflow-x: hidden;}
 
 /* photo.htmlの設定---------------------------------------------------------------------------*/
-div.photo {
-	height:auto;
+
+.wrapper{
+  width:100%;
+  margin:30px auto;
 }
-.photo h1 {								
+.wrapper h1 {								
 	font-family: 'Tangerine', cursive, "ヒラギノ丸ゴ Pro", "Hiragino Maru Gothic Pro", "メイリオ", Meiryo, Osaka;
 	font-weight: normal;				
 	font-size: 4rem;	
@@ -265,19 +267,20 @@ div.photo {
 	animation-name: fade;
 	animation-duration:5s;
 }
-.photo h1 span {
+.wrapper h1 span {
 	display: block;	
 	font-size: 0.8rem;
 	letter-spacing: 0.2em;
 }
-.photo h1 span::before {
+.wrapper h1 span::before {
 	content: "〜";
 	padding-right: 10px;
 }
-.photo h1 span::after {
+.wrapper h1 span::after {
 	content: "〜";
 	padding-left: 10px;
 }
+
 .modal {
       position: fixed;
       top: 0;
@@ -324,11 +327,6 @@ div.photo {
     opacity: 1;
   transform: translateY(0);
   }
-}
-
-.wrapper{
-  width:100%;
-  margin:30px auto;
 }
 
 /*tabの形状*/
