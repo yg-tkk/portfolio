@@ -222,6 +222,12 @@ ul.icon img:hover {
 	opacity: 0.5;
 }
 
+.slider {
+  position:relative;
+  z-index: 1;
+  height: 100vh;
+}
+
 /*PAGE TOP（↑）設定---------------------------------------------------------------------------*/
 .pagetop-show {
 	display: block;
