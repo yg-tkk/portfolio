@@ -223,10 +223,7 @@ ul.icon img:hover {
 }
 
 .slide {
-	position: relative;
 	width: 90%;
-	height: 400px;
-	overflow: hidden;
 } 
 @keyframes slideshow{ 
 	0%{ opacity: 0;} 10%{ opacity: 1; } 45%{ opacity: 1 } 55%{ opacity: 0; } 100%{ opacity: 0; } } 
