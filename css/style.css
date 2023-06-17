@@ -216,7 +216,7 @@ ul.icon img:hover {
 .slide {
 	position: relative;
 	width: 90%;
-	overflow:hidden
+	overflow:hidden;
         height: 500px;
 } 
 @keyframes slideshow{ 
