@@ -496,11 +496,9 @@ section + section {
 	flex-direction: row;
 	margin-bottom: 100px;
 }
-.list2 figure {
-	width: 48%;
-}
 .slide {
         width: 48%;
+	height: 585px;
 } 
 .list2 .text {
 	width: 48%;
