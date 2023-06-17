@@ -498,6 +498,7 @@ section + section {
 }
 .slide {
         width: 48%;
+	height: 630px;
 } 
 .list2 .text {
 	width: 48%;
