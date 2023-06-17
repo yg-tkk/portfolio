@@ -224,6 +224,7 @@ ul.icon img:hover {
 
 .slide {
 	width: 90%;
+	overflow:hidden
 } 
 @keyframes slideshow{ 
 	0%{ opacity: 0;} 10%{ opacity: 1; } 45%{ opacity: 1 } 55%{ opacity: 0; } 100%{ opacity: 0; } } 
@@ -233,7 +234,9 @@ ul.icon img:hover {
 	opacity: 0;
 	animation :slideshow 16s linear infinite;
 } 
-
+.slide img:nth-child(2){
+        animation-delay: 8s;
+}
 .slide img:last-child{ 
 	animation-delay: 8s;
 }
