@@ -1,4 +1,5 @@
- $('ul li a').click(function() {
+$(function() { 
+$('.course-item a').click(function() {
         var imgSrc = $(this).children().attr('src');
         $('.bigimg').children().attr('src', imgSrc);
         $('.modal').fadeIn();
@@ -11,3 +12,4 @@ $('.close-btn').click(function() {
         $('body,html').css('overflow-y', 'visible');
         return false
       });
+});
