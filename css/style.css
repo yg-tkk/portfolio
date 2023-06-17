@@ -333,7 +333,7 @@ div.photo {
 }
 .tab li a{
   display: block;
-  background:#ddd;
+  list-style: none;
   margin:0 2px;
   padding:10px 20px;
 }
