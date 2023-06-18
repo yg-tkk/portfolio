@@ -470,6 +470,28 @@ opacity: 0;
 	right: 0px;
 }
 
+/*flow.htmlの設定---------------------------------------------------------------------------*/
+.flow-text {
+	display: flex;	
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;	
+	margin-bottom: 40px;
+}
+
+.flow-text img {
+	
+}
+
+.flow-text li {
+	margin-bottom: 10px;
+}
+.flow-text li span {
+	display: block;
+	font-size: 0.8rem;
+	opacity: 0.5;
+}
+
 /*ここから下は画面幅800px以上の追加指定---------------------------------------------------------------------------*/
 @media screen and (min-width:800px) {
 
@@ -521,6 +543,9 @@ section + section {
 	width: 48%;
 }
 
+/*flow.htmlの設定---------------------------------------------------------------------------*/
+
+	
 /*その他---------------------------------------------------------------------------*/
 .ws {width: 45%;display: inline-block;}
 
