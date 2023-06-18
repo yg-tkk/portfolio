@@ -480,7 +480,9 @@ opacity: 0;
 }
 
 .flow-text img {
-	
+	display: block;
+        margin: auto;
+	max-width: 45%;
 }
 
 .flow-text li {
