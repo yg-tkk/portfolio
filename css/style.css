@@ -168,7 +168,7 @@ footer small {
 footer {
 	font-size: 0.6rem;
 	text-align: center;
-	padding: 20px;
+	padding: 0 20px;
 }
 footer a {
 	text-decoration: none;
