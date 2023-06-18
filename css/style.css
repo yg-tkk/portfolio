@@ -484,10 +484,10 @@ opacity: 0;
         margin: auto;
 	max-width: 45%;
 }
-.flow-tex ul {
+.flow-text ul {
   list-style: none;
   padding: 0;
-  max-width: 55%;
+  max-width: 75%;
 }
 .flow-text li {
 	margin-bottom: 10px;
@@ -550,7 +550,9 @@ section + section {
 }
 
 /*flow.htmlの設定---------------------------------------------------------------------------*/
-
+.flow-text ul {
+  max-width: 55%;
+}
 	
 /*その他---------------------------------------------------------------------------*/
 .ws {width: 45%;display: inline-block;}
